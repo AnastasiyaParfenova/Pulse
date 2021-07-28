@@ -1,0 +1,21 @@
+@import '../base/variables';
+@import '../base/animations';
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'promo';
+@import 'header';
+@import 'buttons';
+@import 'titles';
+@import 'advantages';
+@import 'consultation';
+@import 'forms';
+@import 'carousel';
+@import 'catalog';
+@import 'feed';
+@import 'footer';
+@import 'modal';
+@import 'pageup';
+@import 'media';

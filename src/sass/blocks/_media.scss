@@ -1,0 +1,236 @@
+@media (max-width: 1200px) {
+    
+}
+   
+
+@media (max-width: 991px) {
+    .promo {
+        &__header {
+            font-size: 32px;
+        }  
+        &__subheader {
+            font-size: 20px;
+        }
+        .button {
+            &_main {
+                width: 250px;
+            }
+        }
+        &__link {
+            font-size: 13px;
+            
+        }
+    }
+
+    .advantages {
+        .title {
+            font-size: 25px;
+        }
+    }
+
+    .consultation {
+        .title {
+            &_left {
+            font-size: 30px;
+            }
+        }
+    }
+
+    .carousel {
+        &__inner {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 50%;
+            }
+        }
+    }
+}
+    
+    
+@media (max-width: 776px) {
+    .header {
+        &__logo {
+            img {
+                width: 80%;
+            }
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 13px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        &__contacts {
+            .button {
+                width: 130px;
+                font-size: 10px;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 30px;
+        }  
+        &__subheader {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .button {
+            &_main {
+                width: 210px;
+                font-size: 13px;
+            }
+        }
+        &__link {
+            font-size: 12px;
+            
+        }
+    }
+
+    .advantages {
+        .title {
+            font-size: 23px;
+        }
+        &__item {
+            width: 50%;
+        }
+        &__subtitle {
+            text-align: center;
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 12px;
+            margin-top: 23px;
+            padding: 0 6px;
+        }
+    }
+
+    .consultation {
+        .title {
+            &_left {
+            font-size: 24px;
+            }
+        }
+        &__descr {
+            font-size: 20px;
+            line-height: 23px;
+        }
+        .button {
+            &_submit {
+                font-size: 13px;
+                width: 70%;
+            }
+        }
+    }
+
+    .carousel {
+        &__inner {
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                width: 40%;
+            }
+        }
+    }
+
+    .catalog {
+        .title {
+            font-size: 24px;
+        }
+        &__tab {
+            width: 150px;
+            font-size: 14px;
+        }
+        &-item__content {
+            img {
+                max-width: 50%;
+                height: 100px;
+            }
+        }
+        &-item__price {
+            font-size: 17px;
+        }
+    }
+
+    .feed {
+        .title {
+            font-size: 20px;
+        }
+        &__img {
+            width: 129px;
+            height: 133px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 360px;
+            height: 240px;
+            padding: 30px 68px 60px 68px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+        &__addr {
+            font-size: 17px;
+        }
+    }
+}
+
+
+@media (max-width: 575px) {
+
+    .header {
+        &__phone {
+            font-size: 12px;
+        }
+    }
+    .promo {
+        &__icons {
+            width: 330px;
+        }
+    }
+
+    .carousel {
+        &__inner {
+            img {
+                display: block;
+                margin: 0;
+                margin-bottom: 20px;
+                width: 40%;
+            }
+        }
+    }
+
+    .catalog {
+        &__tab {
+            font-size: 10px;
+        }
+    }
+
+    .feed {
+        &__descr {
+            font-size: 10px;
+        }
+
+        &__count {
+            font-size: 12px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 320px;
+        }
+    
+    }
+}
+
+    
